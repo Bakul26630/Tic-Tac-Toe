@@ -1,0 +1,174 @@
+#Primary_Heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    color: rgb(1, 25, 95);
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#watch{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid red;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+#start{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: green;
+    border: 2px solid white;
+    color: white;
+}
+
+#players{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslategray;
+}
+
+#p-1{
+    color: red;
+}
+
+#p-2{
+    color: green;
+}
+#board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.box{
+    border:1px solid black;
+    width: 8vw;
+    height: 12vh;
+    font-size: 6rem;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    outline: none;
+}
+
+:root{
+    --border: 8px;
+}
+#box-1{
+    border-top: none;
+    border-left: none;
+    border-right: var(--border) solid black;
+    border-bottom: var(--border) solid black;
+}
+
+#box-2{
+    border-top: none;
+    border-left: var(--border) solid black;
+    border-right: var(--border) solid black;
+    border-bottom: var(--border) solid black;
+}
+
+#box-3{
+    border-top: none;
+    border-left: var(--border) solid black;
+    border-right: none;
+    border-bottom: var(--border) solid black;
+}
+
+#box-4{
+    border-top: var(--border) solid black;
+    border-left: none;
+    border-right: var(--border) solid black;
+    border-bottom: var(--border) solid black;
+}
+
+#box-5{
+    border-top: var(--border) solid black;
+    border-left: var(--border) solid black;
+    border-right: var(--border) solid black;
+    border-bottom: var(--border) solid black;
+}
+
+#box-6{
+    border-top: var(--border) solid black;
+    border-left: var(--border) solid black;
+    border-right: none;
+    border-bottom: var(--border) solid black;
+}
+
+#box-7{
+    border-top: var(--border) solid black;
+    border-left: none;
+    border-right: var(--border) solid black;
+    border-bottom:none;
+}
+
+#box-8{
+    border-top: var(--border) solid black;
+    border-left: var(--border) solid black;
+    border-right: var(--border) solid black;
+    border-bottom: none;
+}
+
+#box-9{
+    border-top: var(--border) solid black;
+    border-left: var(--border) solid black;
+    border-right: none;
+    border-bottom: none;
+}
+
+#result{
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#reset{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: green;
+    border: 2px solid white;
+    color: white;
+}
